@@ -1,26 +1,96 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <link rel="stylesheet" href="styles.css">
   <title>Group 6 CSS</title>
 <style>
 body {
-  background-color: lightblue;
+  background-color: rgb(203, 147, 26);
 }
 
-h1 {
-  color: white;
+h1 {    
+  color: rgb(0, 0, 0);
   text-align: center;
 }
-
+h2{   
+  color: plum;
+  text-align: left;
+}
+h2.a {
+  visibility: visible;
+}
+h2.b {
+  visibility: hidden;
+}
 p {
   font-family: verdana;
   font-size: 20px;
 }
+p1 {
+  color: aquamarine;
+  font-family: verdana;
+  font-size: 20px;
+}
+.D {
+  background-color: rgb(139, 22, 206);
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+#DZ {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+} 
+a:hover {
+  background-color: yellow;
+}
+.element{
+    display:none; 
+}
+
+
+.father:hover .element{
+    display:block ;
+}
+
+
 </style>
 </head>
 <body>
 
 <h1>Group 6</h1>
-
+<hr>
+<h2>David Zhang</h2>
+<h1 id="DZ">David Zhang</h1>
+<p1 style="color:rgb(236, 236, 236);">This is my web:</p1>
+<p1><a href="http://dzofi.com/">link</a></p1>
+<div class="D">
+  <div class="father">
+    <div class="brother-showing">
+         <h2 class="a"> Denny Park</h2>
+          <p>Last BBQ</p>
+    <div>
+      <div class="element">
+        <img src="picdav.jpg"
+        alt="Photo Of David"
+        title="Space Needle"
+        width="400"
+        height="300"/>
+    </div>
+</div>
+  </div> 
+  
+  <div class="father">
+    <div class="brother-showing">
+       <p>What does it feel like to be sick?</p>
+    <div>
+    <div class="element">
+        <p>Coughing and weakness every day.</p>
+    </div>
+</div>
+<hr>
 </body>
 </html>
