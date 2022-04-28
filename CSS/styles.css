@@ -41,12 +41,15 @@ div.JBox
 {
     position: relative;
     width: 25%;
+    margin: auto;
+    
 }
 
 .JPic
 {
     display: block;
     width: 50%;
+    margin: auto;
     height: auto;
 
 }
@@ -55,6 +58,7 @@ div.JBox
 {
     position: absolute;
     bottom: 0;
+    margin: auto;
     left: 25%;
     right:0;
     background-color: rgb(65, 133, 212);
@@ -67,6 +71,7 @@ div.JBox
 .JContainer:hover .JOverlay
 {
     width: 50%;
+    margin: auto;
     left:0;
 }
 
