@@ -26,7 +26,7 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
-p1 {
+p1 { /*Mark's comment: Please don't make up your own html elements unless you have a very good reason to! Use a standard p tag or div tag and then style it with a class name instead!*/
   color: aquamarine;
   font-family: verdana;
   font-size: 20px;
@@ -97,12 +97,12 @@ a:hover {
 <hr>
 <h2>David Zhang</h2><!--testing-->
 <h1 id="DZ">David Zhang</h1>
-<p1 style="color:rgb(236, 236, 236);">This is my web:</p1>
+<p1 style="color:rgb(236, 236, 236);">This is my web:</p1><!--Mark's comment: Please don't make up your own html elements unless you have a very good reason to! Use a standard p tag or div tag and then style it with a class name instead! Or tell me why you did this...-->
 <p1><a href="http://dzofi.com/">link</a></p1>
 <div class="D">
   <div class="father">
-    <div class="brother-showing">
-         <h2 class="a"> Denny Park</h2>
+    <div class="brother-showing"> <!--Mark's comment: I don't see the class brother-showing defined anywhere...-->
+         <h2 class="a"> Denny Park</h2> <!--Mark's comment: I don't see the class a defined anywhere... but also, don't name classes the same as a name of an html element!-->
           <p>Last BBQ</p>
     </div>
       <div class="element">
@@ -153,6 +153,7 @@ a:hover {
 
 </body>
 
+<<<<<<< HEAD
 <!--Itzetl's Section-->
 <body>
   <div class="container">
@@ -172,7 +173,29 @@ a:hover {
      <a href="http://itzvixteo.com" class="btn">More About Me</a>
     
      </div>
+=======
+  <div class="container"> <!--Mark's comment: I don't see container, image, or btn defined as classes in the style block at the beginning of the page nor in the styles.css file. Did work you did not get pushed?-->
+    <h1>Itzetl Vixtha</h1>
+    <h2>Junior | Media and Communication Studies</h2>
+    <div class="image">
+      <img  src="CSS.png" alt="profile" width="100" height="100">
+    </div>
+    <p>
+      <strong>Itzetl</strong> (it-sel) is a Junior majoring in <em>Media and Communications Studies</em>. Itzetl is 20 years old, from Puebla, Mexico.
+       She likes to find new places to eat, travel, and go to concerts, as well as spending time with family.
+    </p>
+    <a href="http://itzvixteo.com" class="btn">More about me</a>
+   
+
+    </div>
+  
+  
+  
+
+
+
+>>>>>>> e7f2814ed7e565491586fd05bf26d613a4702731
 </body>
 
 </html>
-<!--/html>
+
